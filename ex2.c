@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(void){
 int age;
-printf("please, enter your age and see what happens\n");
+printf("Please enter your age :");
 scanf("%d",&age);
-for(int i=0;i<age;i++){
+for(int a=0;a<age;a++){
     printf("Happy Birthday!\n");
 }
 
