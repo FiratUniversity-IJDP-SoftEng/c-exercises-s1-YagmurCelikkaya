@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(void) {
 
-   for (int number = 2; number <= 10; number += 2)
+   for (int i = 2; i <= 10; i += 2)
    {
-        printf("%d\n", number);
+        printf("%d\n", i);
     }
 
 }
